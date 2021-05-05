@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comuna extends Model
 {
-    protected $table = 'ciudades.comuna';
+    protected $table = 'comunas';
     protected $primaryKey = 'id_comuna';
 
     public function direcciones(){

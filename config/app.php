@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Orangehill\Iseed\IseedServiceProvider::class,
+        GGuney\RSeeder\RSeederServiceProvider::class,
+
     ],
 
     /*

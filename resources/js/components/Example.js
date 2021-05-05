@@ -98,7 +98,8 @@ export default class Example extends Component {
          <td>{calle.calle}</td>
          <td>{calle.numero}</td>
          <td>{calle.depto}</td>
-         <td></td>
+         <td>{calle.referencia}</td>
+         <td>{calle.codigo_postal}</td>
          </tr>
         );
     })
@@ -148,7 +149,7 @@ export default class Example extends Component {
                     <div className="row justify-content-center" id="calle">
                      <div className="col-md-8">
                         <div className="card">
-                        <div className="card-header">Calles registradas</div>
+                        <div className="card-header">Registro de direcciones</div>
                         <div className="card-body">
                         <table className="table">
                             <thead>
@@ -157,6 +158,8 @@ export default class Example extends Component {
                                     <th>Numero</th>
                                     <th>Dpto </th>
                                     <th>Referencia</th>
+                                    <th>Codigo Postal</th>
+
                                 </tr>
                             </thead>
                             <tbody>
